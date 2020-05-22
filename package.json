@@ -1,0 +1,23 @@
+{
+  "name": "nodesproject",
+  "version": "1.0.0",
+  "description": "MongoDB\r -unzip file\r -goto bin\r - .\\mongod.exe --dbpath=<path to data dir>\r -port 27017",
+  "main": "connect2Mongo.js",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juber9797/nodesproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juber9797/nodesproject/issues"
+  },
+  "homepage": "https://github.com/juber9797/nodesproject#readme"
+}
