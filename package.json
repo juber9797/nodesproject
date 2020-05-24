@@ -4,11 +4,17 @@
   "description": "MongoDB\r -unzip file\r -goto bin\r - .\\mongod.exe --dbpath=<path to data dir>\r -port 27017",
   "main": "connect2Mongo.js",
   "dependencies": {
-    "mongodb": "^2.2.33"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-mongo-db": "^2.0.4",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node readForm.js"
   },
   "repository": {
     "type": "git",

@@ -7,15 +7,17 @@ const dbURL = mongoURL + '/' + dbName
 
 var doc = { name: "USER1", age: "100" }
 
-mongodb.connect(dbURL, function(error, connectMDB) {
+var connectObj = mongodb.connect(dbURL, function(error, connectMDB) {
    if (error) {
     console.log('failed to connect')
    }
 
-    connectMDB.collection('Name').insertOne(doc, function(error, res) {
+   connectMDB.collection('Name').insertOne(doc, function(error, res) {
         console.log('insert doen')
     })
 
     //close connection to DB
     connectMDB.close()
-    })
+})
+
+console.log(connectObj)
